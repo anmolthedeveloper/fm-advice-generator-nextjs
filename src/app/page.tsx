@@ -29,7 +29,7 @@ export default function Home() {
         <p className="uppercase tracking-[0.3em] text-xs text-neonGreen font-bold mb-6">
           Advice #{adviceId}
         </p>
-        <p className="text-center text-xl font-bold">\"{advice}\"</p>
+        <p className="text-center text-xl font-bold">"{advice}"</p>
         <Image
           src={"./images/pattern-divider-desktop.svg"}
           height={1000}
